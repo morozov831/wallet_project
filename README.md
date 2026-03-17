@@ -1,6 +1,6 @@
 # Wallet API
 
-REST API  сервис для управления электронными кошельками, разработанный на FastAPI с асинхронной архитектурой.
+Асинхронный REST API сервис для управления электронными кошельками на FastAPI.
 
 ## О проекте
 
@@ -49,6 +49,11 @@ FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Pydantic, Docker, docker-compose, 
    pip install -r requirements.txt
    ```
 
+5. Настройте файл окружения:
+   ```bash
+   cp .env.example .env
+   ```
+   
 <h3>Запуск проекта</h3>
 <ol>
     <li>Убедитесь, что Docker и Docker Compose установлены на вашей системе.</li>
