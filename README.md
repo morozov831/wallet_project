@@ -40,8 +40,10 @@ FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Pydantic, Docker, docker-compose, 
    ```
 3. Создайте и активируйте виртуальное окружение, если оно не создано автоматически интерпретатором:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate  # для Linux/Mac
+   # или .\.venv\Scripts\activate  # для Windows (PowerShell)
+   # или .venv\Scripts\activate.bat  # для Windows (CMD)
    ```
 
 4. Установите необходимые пакеты:
